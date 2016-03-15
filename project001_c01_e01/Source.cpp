@@ -1,3 +1,7 @@
+// name: project001_c01_e01
+// tags: #helloworld #template
+// author: ro9uemancer 
+
 #include <iostream>
 
 int main()
