@@ -1,3 +1,4 @@
 # cpp-prata
 
-This is my learning repository.
+This is just my learning repository.
+Nothing fancy.
