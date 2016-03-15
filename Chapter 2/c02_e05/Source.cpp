@@ -7,7 +7,7 @@
 
 using namespace std;
 
-float reTemp(float tempC);
+float tempCIntoF(float tempC);
 
 int main()
 {
@@ -16,16 +16,13 @@ int main()
 	cout << "Podaj temperature w stopniach Celsjusza: ";
 	cin >> tempC;
 	
-	cout << tempC << " stopnie Celsjusza to " << reTemp(tempC) << " stopni Fahrenheita.";
+	cout << tempC << " stopnie Celsjusza to " << tempCIntoF(tempC) << " stopni Fahrenheita.";
 
 	_getch();
 	return 0;
 }
 
-float reTemp(float tempC)
+float tempCIntoF(float tempC)
 {
-	float tempF;
-	tempF = (1.8 * tempC) + 32.0;
-
-	return tempF;
+	return (1.8 * tempC) + 32.0;
 }
