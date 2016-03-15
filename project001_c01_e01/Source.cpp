@@ -3,11 +3,15 @@
 // author: ro9uemancer 
 
 #include <iostream>
+#include <conio.h>
+
+using namespace std;
+
 
 int main()
 {
-	std::cout << "Hello user!" << std::endl;
+	
 
-	system("PAUSE");
+	_getch();
 	return 0;
 }
